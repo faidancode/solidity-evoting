@@ -1,0 +1,7 @@
+{
+  "name": "evoting-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "React frontend for the Solidity voting DApp.",
+  "type": "module"
+}

@@ -6,6 +6,7 @@ Start with:
 
 - [Smart Contract and Blockchain Concepts](./concept/smart-contract.md)
 - [Solidity Concepts](./concept/solidity.md)
+- [MetaMask and Network Types](./concept/metamask.md)
 
 ## Project Rules
 
@@ -18,18 +19,23 @@ Start with:
 
 Goal: prepare the development stack before writing contract logic.
 
-- [ ] Install Node.js and a package manager
-- [ ] Initialize a Hardhat project
-- [ ] Set up Solidity compiler version and Hardhat network config
-- [ ] Create a `.env` file for private keys and RPC URLs
-- [ ] Set up MetaMask for local and testnet use
-- [ ] Learn the difference between local chain, testnet, and mainnet
+- [x] Install `pnpm`
+- [x] Install Node.js and a package manager
+- [x] Run `pnpm install`
+- [x] Install project dependencies for Hardhat
+- [x] Confirm the root structure: `contracts/`, `scripts/`, `test/`, `frontend/`, `docs/`
+- [x] Set up `hardhat.config.js` to point to the custom folder layout
+- [x] Create a `.env` file from `.env.example`
+- [x] Set up MetaMask for local and testnet use
+- [x] Learn the difference between local chain, testnet, and mainnet
+- [x] Read the disclaimer in `README.md`
 
 Completion criteria:
 
-- [ ] You can compile an empty contract
-- [ ] You can run Hardhat tests locally
-- [ ] You can connect a wallet to a local or testnet network
+- [x] You can compile an empty contract
+- [x] You can run Hardhat tests locally
+- [x] You can connect a wallet to a local or testnet network
+- [x] You understand where contracts, tests, scripts, docs, and frontend code live
 
 ## Week 1 - Solidity Fundamentals
 

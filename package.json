@@ -1,0 +1,23 @@
+{
+  "name": "solidity-evoting",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Learning repository for a Solidity voting DApp with Hardhat and React Wagmi.",
+  "type": "module",
+  "packageManager": "pnpm@10.8.1",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^7.0.0",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.5",
+    "dotenv": "^17.4.2",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "hardhat": "^3.4.5",
+    "solc": "^0.8.35",
+    "viem": "^2.49.3"
+  }
+}

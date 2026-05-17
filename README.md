@@ -20,6 +20,18 @@ This repo focuses on:
 - React and Wagmi integration
 - Deployment to a test network
 
+## Package Manager
+
+This repository uses `pnpm`.
+
+Recommended setup commands:
+
+```bash
+pnpm install
+pnpm compile
+pnpm test
+```
+
 ## Start Here
 
 - [Learning Plan](./docs/plan.md)
