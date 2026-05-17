@@ -54,22 +54,22 @@ Goal: be able to read, write, deploy, and test basic smart contracts.
 
 ### Build Exercises
 
-- [ ] `Counter` contract
-- [ ] `TodoList` contract
-- [ ] `SimpleWallet` contract
+- [x] `Counter` contract
+- [x] `TodoList` contract
+- [x] `SimpleWallet` contract
 
 ### Skills to Prove
 
-- [ ] You can deploy a contract with Hardhat
-- [ ] You can write a unit test for a state change
-- [ ] You can write a unit test for a revert condition
-- [ ] You can emit and assert an event in a test
+- [x] You can deploy a contract with Hardhat
+- [x] You can write a unit test for a state change
+- [x] You can write a unit test for a revert condition
+- [x] You can emit and assert an event in a test
 
 ### Completion criteria
 
-- [ ] You can explain the purpose of state variables, events, and modifiers
-- [ ] You can deploy each exercise contract locally
-- [ ] You can test both happy paths and failure paths
+- [x] You can explain the purpose of state variables, events, and modifiers
+- [x] You can deploy each exercise contract locally
+- [x] You can test both happy paths and failure paths
 
 ## Week 2 - Voting Smart Contract
 
