@@ -12,11 +12,12 @@ This repository is a learning workspace for a simple voting DApp built with Soli
 
 ## Working Principles
 
-- Keep all documentation in English.
+- Keep all repository text, code comments, and documentation in English.
 - Prefer small, focused changes over large speculative refactors.
 - Keep smart contract behavior explicit and testable.
 - Treat security and access control as first-class concerns.
 - Preserve the core voting rules unless the user explicitly changes them.
+- Do not run tests unless the user explicitly asks for them.
 
 ## Smart Contract Rules
 

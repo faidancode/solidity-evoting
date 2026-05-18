@@ -85,30 +85,30 @@ Goal: build the core e-voting contract with on-chain rules.
 
 ### Contract Requirements
 
-- [ ] Define the candidate data structure
-- [ ] Store vote counts on-chain
-- [ ] Track whether an address has already voted
-- [ ] Restrict candidate management to the admin
-- [ ] Prevent votes after voting has ended
-- [ ] Emit an event when a candidate is added
-- [ ] Emit an event when a vote is cast
-- [ ] Provide read functions for results and candidate data
+- [x] Define the candidate data structure
+- [x] Store vote counts on-chain
+- [x] Track whether an address has already voted
+- [x] Restrict candidate management to the admin
+- [x] Prevent votes after voting has ended
+- [x] Emit an event when a candidate is added
+- [x] Emit an event when a vote is cast
+- [x] Provide read functions for results and candidate data
 
 ### Tests
 
-- [ ] owner can add candidate
-- [ ] non-owner cannot add candidate
-- [ ] user can vote
-- [ ] user cannot vote twice
-- [ ] cannot vote if voting ended
-- [ ] vote event is emitted
-- [ ] candidate list or result getter returns expected data
+- [x] owner can add candidate
+- [x] non-owner cannot add candidate
+- [x] user can vote
+- [x] user cannot vote twice
+- [x] cannot vote if voting ended
+- [x] vote event is emitted
+- [x] candidate list or result getter returns expected data
 
 ### Completion criteria
 
-- [ ] The contract enforces 1 wallet = 1 vote
-- [ ] Results can be read without privileged access
-- [ ] Tests cover the main business rules
+- [x] The contract enforces 1 wallet = 1 vote
+- [x] Results can be read without privileged access
+- [x] Tests cover the main business rules
 
 ## Week 3 - React and Wagmi Integration
 
