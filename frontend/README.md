@@ -1,13 +1,1 @@
-# Frontend
-
-This folder will contain the React + Wagmi application for the voting DApp.
-
-Planned responsibilities:
-
-- wallet connection
-- contract reads
-- vote transactions
-- result display
-- transaction state feedback
-
-The frontend will be added after the Solidity and Hardhat foundations are in place.
+This is a [Vite](https://vitejs.dev) project bootstrapped with [`create-wagmi`](https://github.com/wevm/wagmi/tree/main/packages/create-wagmi).
