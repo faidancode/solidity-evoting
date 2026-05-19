@@ -124,18 +124,18 @@ Goal: build a frontend that talks to the smart contract safely and clearly.
 
 ### Build Tasks
 
-- [ ] Create a voting dashboard
-- [ ] Add wallet connection and network awareness
-- [ ] Load candidates from the contract
-- [ ] Display live vote results
-- [ ] Add a vote action button
-- [ ] Handle user rejections and revert messages
+- [x] Create a voting dashboard
+- [x] Add wallet connection and network awareness
+- [x] Load candidates from the contract
+- [x] Display live vote results
+- [x] Add a vote action button
+- [x] Handle user rejections and revert messages
 
 ### Completion criteria
 
-- [ ] A connected wallet can vote from the UI
-- [ ] Public results are visible without special access
-- [ ] The UI reflects contract state instead of duplicating it
+- [x] A connected wallet can vote from the UI
+- [x] Public results are visible without special access
+- [x] The UI reflects contract state instead of duplicating it
 
 ## Week 4 - Deployment and Polish
 
