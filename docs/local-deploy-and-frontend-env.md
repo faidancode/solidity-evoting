@@ -21,6 +21,13 @@ VITE_CONTRACT_ADDRESS=0x1234567890abcdef1234567890abcdef12345678
 VITE_CHAIN_ID=31337
 ```
 
+For Sepolia, use chain id `11155111` instead of `31337`:
+
+```env
+VITE_CONTRACT_ADDRESS=0xYourSepoliaContractAddress
+VITE_CHAIN_ID=11155111
+```
+
 ## Why The Frontend Said "Unconfigured"
 
 The frontend checks `import.meta.env.VITE_CONTRACT_ADDRESS` in [frontend/src/voting.ts](../frontend/src/voting.ts).
@@ -46,6 +53,29 @@ pnpm run deploy:local
 ```
 
 The deploy script is [scripts/deploy.js](../scripts/deploy.js). It deploys `Voting` and prints the deployed address.
+
+## Testnet Deploy Flow
+
+When you move beyond the local chain, use the Sepolia network entry in [hardhat.config.js](../hardhat.config.js).
+
+You need these environment values before running a testnet deployment:
+
+- `SEPOLIA_RPC_URL`
+- `SEPOLIA_PRIVATE_KEY`
+
+Then deploy with:
+
+```bash
+pnpm run deploy:sepolia
+```
+
+The same [scripts/deploy.js](../scripts/deploy.js) file is used for both local and testnet deployments.
+
+After deployment:
+
+1. Copy the printed contract address into `frontend/.env`.
+2. Set `VITE_CHAIN_ID=11155111` for Sepolia.
+3. Restart the frontend dev server.
 
 ## Correct Env File Location
 

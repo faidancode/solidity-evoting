@@ -151,11 +151,17 @@ Goal: make the app usable outside the local environment.
 
 ### Build Tasks
 
-- [ ] Write a deployment script
+- [x] Write a deployment script
 - [ ] Deploy to a test network
 - [ ] Connect the frontend to the deployed contract
 - [ ] Add clear empty, loading, and error states
 - [ ] Review contract security and access control
+
+Current deployment notes:
+
+- The repo includes [scripts/deploy.js](../scripts/deploy.js) for local and Sepolia deployments.
+- Sepolia deployment uses `pnpm run deploy:sepolia` with `SEPOLIA_RPC_URL` and `SEPOLIA_PRIVATE_KEY`.
+- The frontend needs `VITE_CHAIN_ID=11155111` and the Sepolia contract address after deployment.
 
 ### Completion criteria
 
